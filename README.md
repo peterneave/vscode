@@ -1,8 +1,9 @@
 <!--
+marp: true
 theme: gaia
 class:
  - invert
-headingDivider: 2 
+headingDivider: 2
 paginate: true
 -->
 
@@ -12,10 +13,46 @@ _class:
  - invert
 -->
 
-# Deploy Marp to GitHub Pages
+# VS Code
 
 Presentations to Webpages: Instantly!
 
+## Foreword
+
+Say something
+
+## Inbuilt Features
+
+- Demo Mode
+- Next Problem in Files <kbd>F8</kbd>
+
+## Extensions
+
+## Marp
+
+This slide deck written in Markdown within VSCode. I used the Marp extension to export to PowerPoint. <https://marp.app/>
+
+Side note, Marp has a CLI - so this slide has a CICD pipeline 😁
+
+---
+
+## Others
+
+- Error Lens
+- Polacode
+- Polygot Notebooks
+- Rapid Clients
+- Rest Client
+- Presentations
+- To Do Tree
+- Unique Lines
+- Sort
+- Decode
+- Bookmark
+
+- Mermaid JS
+
+<!--
 ## What?
 
 [Marp](https://marp.app/) lets you create HTML slides from markdown (like this!).
@@ -117,6 +154,7 @@ Send a [pull request](https://github.com/ralexander-phi/marp-to-pages) to get yo
 ## Publish your slides
 
 When you are ready to share your presentation, commit or merge to `main` and your content on GitHub Pages will automatically update.
+-->
 
 # 🎉
 <!--
@@ -124,6 +162,4 @@ _class:
  - lead
  - invert
 -->
-### Hooray!
-
-
+## Hooray!
