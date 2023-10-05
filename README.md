@@ -19,7 +19,9 @@ Presentations to Webpages: Instantly!
 
 ## Foreword
 
-Say something
+This presentation is open source and available on [Github](https://github.com/peterneave/vscode-slidedeck).
+
+You can view this presentation at 🔗[neave.dev/vscode-slidedeck](https://neave.dev/vscode-slidedeck)
 
 ## Inbuilt Features
 
@@ -38,19 +40,18 @@ Side note, Marp has a CLI - so this slide has a CICD pipeline 😁
 
 ## Others
 
-- Error Lens
-- Polacode
-- Polygot Notebooks
-- Rapid Clients
-- Rest Client
-- Presentations
-- To Do Tree
-- Unique Lines
-- Sort
-- Decode
-- Bookmark
-
-- Mermaid JS
+* Error Lens
+* Polacode
+* Polygot Notebooks
+* Rapid Clients
+* Rest Client
+* Presentations
+* To Do Tree
+* Unique Lines
+* Sort
+* Decode
+* Bookmark
+* Mermaid JS
 
 <!--
 ## What?
