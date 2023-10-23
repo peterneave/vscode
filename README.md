@@ -1,8 +1,6 @@
 <!--
 marp: true
-theme: gaia
-class:
- - invert
+theme: default
 headingDivider: 2
 paginate: true
 -->
@@ -25,8 +23,11 @@ You can view this presentation at 🔗[neave.dev/vscode-slidedeck](https://neave
 
 ## Inbuilt Features
 
-- Demo Mode
-- Next Problem in Files <kbd>F8</kbd>
+* Demo Mode
+* Next Problem in Files <kbd>F8</kbd>
+* Profiles
+* Synchronized Settings
+* Tunnelling Remote Explorer
 
 ## Extensions
 
@@ -40,6 +41,11 @@ Side note, Marp has a CLI - so this slide has a CICD pipeline 😁
 
 ## Others
 
+* Atlassian
+* Azure
+* AWS
+* Docker
+* Developer Containers
 * Error Lens
 * Polacode
 * Polygot Notebooks
