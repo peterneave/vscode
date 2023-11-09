@@ -24,12 +24,43 @@ You can view this presentation at 🔗[neave.dev/vscode-slidedeck](https://neave
 
 ## Inbuilt Features
 
-* Command Palette CTRL+SHIFT+P
+* Help Menu
+  * [Keyboard Shortcut reference](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
+  * Walkthroughs
+  * Command Palette CTRL+SHIFT+P
 * Demo Mode
+* Navigate between recently opened files and workspaces <kbd>Ctrl+R</kbd>
 * Next Problem in Files <kbd>F8</kbd>
 * Profiles
 * Synchronized Settings
 * Tunnelling Remote Explorer
+* Terminal
+* Grouping
+* Duplicate Lines
+* Expanding and Shrinking Selection
+* Multi Cursor (CTRL+D)
+* Sidebar and secondary sidebar with outline view
+* Zen Mode
+* Vertical Bars
+* Code Formatting
+* Markdown preview
+* Log Points
+* Task Runners
+
+## Customisation
+
+Settings.json
+editor.fontFamily: "'Cascadia Code'",
+  "editor.formatOnSave": true,
+    "editor.rulers": [
+    120
+  ],
+    "editor.trimAutoWhitespace": true,
+  "files.trimTrailingWhitespace": true,
+"terminal.integrated.fontFamily": "'CaskaydiaCove Nerd Font Mono','Cascadia Code',Consolas,'Courier New',monospace",
+  "workbench.sideBar.location": "right",
+  "editor.stickyScroll.enabled": true,
+    "git.branchPrefix": "yourusername/",
 
 ## Extensions
 
@@ -43,6 +74,7 @@ Side note, Marp has a CLI - so this slide has a CICD pipeline 😁
 
 ## Others
 
+* CoPilot
 * Atlassian
 * Azure
 * AWS
@@ -60,6 +92,10 @@ Side note, Marp has a CLI - so this slide has a CICD pipeline 😁
 * Decode
 * Bookmark
 * Mermaid JS
+* JSON Crack
+* SemDiff
+* FootSteps
+* VS Code Pets - https://marketplace.visualstudio.com/items?itemName=tonybaloney.vscode-pets
 
 <!--
 ## What?
