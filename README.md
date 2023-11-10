@@ -22,6 +22,16 @@ This presentation is open source and available on [Github](https://github.com/pe
 
 You can view this presentation at 🔗[neave.dev/vscode-slidedeck](https://neave.dev/vscode-slidedeck), [PowerPoint](https://neave.dev/vscode-slidedeck/README.pptx) and [PDF](https://neave.dev/vscode-slidedeck/README.pptx)
 
+## Documentation and Updates
+
+https://www.youtube.com/@code
+
+https://code.visualstudio.com/docs
+https://code.visualstudio.com/docs/getstarted/introvideos
+https://code.visualstudio.com/docs/getstarted/tips-and-tricks
+
+https://code.visualstudio.com/updates
+
 ## Inbuilt Features
 
 * Help Menu
