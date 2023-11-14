@@ -53,6 +53,7 @@ https://code.visualstudio.com/updates
 * Zen Mode
 * Vertical Bars
 * Code Formatting
+* Folding
 * Markdown preview
 * Log Points
 * Task Runners
