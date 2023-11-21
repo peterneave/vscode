@@ -22,7 +22,7 @@ This presentation is open source and available on [Github](https://github.com/pe
 
 You can view this presentation at [![w:48](img/github-mark-white.svg) GitHub](https://github.com/peterneave/vscode)
 
-🔗[neave.dev/vscode](https://neave.dev/vscode), [PowerPoint](https://neave.dev/vscode/README.pptx) and [PDF](https://neave.dev/vscode/README.pptx)
+🔗[neave.dev/vscode](https://neave.dev/vscode), [PowerPoint](https://neave.dev/vscode/vscode.pptx) and [PDF](https://neave.dev/vscode/vscode.pptx)
 
 ## Documentation and Updates
 
