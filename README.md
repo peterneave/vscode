@@ -83,7 +83,7 @@ Customize Settings, Keyboard Shortcuts, User Snippets, User Tasks or  Extensions
 ## Customisation
 
 - [Default settings](https://code.visualstudio.com/docs/getstarted/settings#_default-settings) or open `Preferences: Open Default Settings (JSON)`
-- Customize it with User settings - Ctrl+P and go to `Open User Settings (JSON)`
+- Customize it with User settings - `Ctrl+P` and go to `Open User Settings (JSON)`
 
 ```json
 {
@@ -110,31 +110,28 @@ Customize Settings, Keyboard Shortcuts, User Snippets, User Tasks or  Extensions
 
 ![w:800px](img/tipsandtricks/layout.png)
 
----
+### Customize the layout
 
-You can customize the layout. My preference is to move the sidebar to the right. `workbench.sideBar.location: "right"`
-
-So that when you `Toggle Sidebar` (Ctrl+B), it doesn't make the code jump around.
-
-Add a secondary sidebar with Outline view for better navigation.
+- You could move the sidebar to the right then when you `Toggle Sidebar/Ctrl+B` it doesn't make the code jump around.
+- Add a secondary sidebar with Outline view for better navigation.
 
 ### Grouping
 
-Ctrl+\
+`Ctrl+\`
 
 ![bg right](img/tipsandtricks/split_editor.gif)
 
 ---
 
-Switch to next group with Ctrl+[1,2,3...]
+Switch to next group with `Ctrl+[1,2,3...]`
 
 ![w:1000px](img/tipsandtricks/navigate_editors.gif)
 
-Alternatively: Ctrl+P and `View: Move Editor to Next Group`
+Alternatively: `Ctrl+P` and `View: Move Editor to Next Group`
 
 ## Navigation
 
-`Ctrl+R` Displays a Quick Pick dropdown with the list from File > Open Recent with recently opened folders and workspaces followed by files.
+`Ctrl+R` Displays a Quick Pick dropdown with the list from `File > Open Recent` with recently opened folders and workspaces followed by files.
 
 ### Multi-Root Workspaces
 
@@ -167,18 +164,18 @@ Normally your workspace has a single root/project folder but you can have a work
 ### Command Palette
 
 ![w:600px](img/tipsandtricks/OpenCommandPalatte.gif)
-Ctrl+Shift+P
+`Ctrl+Shift+P`
 
 ### Quick Open File
 
 ![w:600px](img/tipsandtricks/QuickOpen.gif)
-Ctrl+P
+`Ctrl+P`
 
 ---
 
 ![w:600px](img/tipsandtricks/quick-open-command-dropdown.png)
 
-Ctrl+P and type `?term` to open a new terminal
+`Ctrl+P` and type `?term` to open a new terminal
 
 ### Sticky Scroll
 
@@ -223,7 +220,7 @@ See the code context with Sticky Scroll - useful for long methods
 
 Edit Text Vertically with [multi-cursor](https://code.visualstudio.com/docs/getstarted/tips-and-tricks#_multi-cursor-selection)
 
-Keep selecting text with Ctrl+D and update over multiple locations in a file.
+Keep selecting text with `Ctrl+D` and update over multiple locations in a file.
 
 ![w:800px](img/tipsandtricks/multicursor.gif)
 
@@ -330,7 +327,7 @@ Run tasks like build, test and other custom tasks in [Task Runners](https://code
 
 ### Installation
 
-Install extensions with `ctrl+shift+x`. You can add to the workspace `@recommended` extensions for a project.
+Install extensions with `Ctrl+Shift+X`. You can add to the workspace `@recommended` extensions for a project.
 
 [Most Popular](https://marketplace.visualstudio.com/search?target=VSCode&category=All%20categories&sortBy=Installs) extensions can be found with `@popular`
 
@@ -377,6 +374,26 @@ Description: Your AI pair programmer
 ![bg right w:800px](img/extentions/copilot.gif)
 
 [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
+
+### Indent Rainbow
+
+[Indent Rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
+
+![](img/extentions/indentrainbow.png)
+
+
+### Path Intellisense
+
+![bg left w:500px](img/extentions/pathintellisense.gif)
+
+[Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) autocompletes filenames
+
+
+### Code Spell Checker
+
+![bg right w:500px](img/extentions/codespellchecker.gif)
+
+[Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) for source code
 
 ### LiveShare
 
@@ -512,7 +529,7 @@ Keep [unique lines](https://marketplace.visualstudio.com/items?itemName=bibhasdn
 
 ![bg right:30%](img/extentions/mermaid.png)
 
-[Markdown Preview](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid) allows you to create [Mermaid JS](https://mermaid.js.org/) documents that can be included in Markdown documents (GitHub supports it).
+[Markdown Preview](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid) allows you to create [Mermaid JS](https://mermaid.js.org/) documents that can be included in Markdown documents.
 
 ```mermaid
 graph TD;
@@ -524,7 +541,7 @@ graph TD;
 
 ---
 
-Mermaid JS can generate
+Aside: Mermaid JS can generate
 
 - Generate Flowchart
 - Sequence Diagram
@@ -585,6 +602,14 @@ Can show differences when you move code.
 
 [Pets](https://marketplace.visualstudio.com/items?itemName=tonybaloney.vscode-pets) gives you a virtual pet to play with while you are coding.
 
+### Docker
+
+![bg right fit](img/extentions/docker-view-context-menu.gif)
+
+Makes it easy to create, manage, and debug containerized applications.
+
+[Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
+
 ### Azure Tools
 
 ![bg left fit](img/extentions/azure.png)
@@ -599,11 +624,3 @@ Get web site hosting, SQL and MongoDB data, Docker Containers, Serverless Functi
 Including CodeWhisperer, CodeCatalyst, and support for Lambda, S3, CloudWatch Logs, and many other services
 
 [AWS Toolkit](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.aws-toolkit-vscode)
-
-### Docker
-
-![bg right fit](img/extentions/docker-view-context-menu.gif)
-
-Makes it easy to create, manage, and debug containerized applications.
-
-[Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
