@@ -333,7 +333,7 @@ Install extensions with `Ctrl+Shift+X`. You can add to the workspace `@recommend
 
 ### Extension Packs
 
-![bg content opacity:.2](img/extentions/extensionpacks.jpg)
+![bg content opacity:.2](img/extensions/extensionpacks.jpg)
 
 [Extension Packs](https://marketplace.visualstudio.com/search?target=VSCode&category=Extension%20Packs&sortBy=Installs)
 
@@ -355,11 +355,11 @@ AI-assisted development features for Python, TypeScript/JavaScript and Java deve
 
 [IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
 
-![bg right w:500px](img/extentions/python-intellicode.gif)
+![bg right w:500px](img/extensions/python-intellicode.gif)
 
 ### LiveServer
 
-![bg left:50% w:600px](img/extentions/vscode-live-server-animated-demo.gif)
+![bg left:50% w:600px](img/extensions/vscode-live-server-animated-demo.gif)
 
 Launch a development local Server with live reload feature for static & dynamic pages
 
@@ -369,18 +369,18 @@ Launch a development local Server with live reload feature for static & dynamic 
 
 [Indent Rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
 
-![](img/extentions/indentrainbow.png)
+![](img/extensions/indentrainbow.png)
 
 ### Path Intellisense
 
-![bg left w:500px](img/extentions/pathintellisense.gif)
+![bg left w:500px](img/extensions/pathintellisense.gif)
 
 [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) autocompletes filenames
 
 
 ### Code Spell Checker
 
-![bg right w:500px](img/extentions/codespellchecker.gif)
+![bg right w:500px](img/extensions/codespellchecker.gif)
 
 [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) for source code
 
@@ -388,7 +388,7 @@ Launch a development local Server with live reload feature for static & dynamic 
 
 Real-time collaborative development from the comfort of your favourite tools.
 
-![bg left w:400px](img/extentions/liveshare.png)
+![bg left w:400px](img/extensions/liveshare.png)
 
 [LiveShare](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare) / [Docs](https://code.visualstudio.com/learn/collaboration/live-share)
 
@@ -412,11 +412,11 @@ Improve highlighting of errors, warnings and other language diagnostics.
 
 [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
 
-![](img/extentions/errorlens.png)
+![](img/extensions/errorlens.png)
 
 ### Polacode
 
-![bg right fit](img/extentions/polacode.gif)
+![bg right fit](img/extensions/polacode.gif)
 
 📸  Polaroid for your code. Take screenshots of your code
 
@@ -426,7 +426,7 @@ Improve highlighting of errors, warnings and other language diagnostics.
 
 [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) Your AI pair programmer
 
-![bg right w:800px](img/extentions/copilot.gif)
+![bg right w:800px](img/extensions/copilot.gif)
 
 ### C# Dev Kit
 
@@ -442,7 +442,7 @@ Official C# extension from Microsoft
 
 ### Polygot Notebooks
 
-![bg left](img/extentions/polygot.png)
+![bg left](img/extensions/polygot.png)
 
 [Polygot Notebooks](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-interactive-vscode) allows
 
@@ -470,7 +470,7 @@ curl https://www.google.com
 
 ---
 
-![bg right fit](img/extentions/thunder-client-v2.png)
+![bg right fit](img/extensions/thunder-client-v2.png)
 
 [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
 
@@ -480,11 +480,11 @@ Lightweight Rest API Client for VS Code
 
 [TODO Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree) quickly find all your todo items.
 
-![bg left fit](img/extentions/todotree.png)
+![bg left fit](img/extensions/todotree.png)
 
 ### Conventional Commits
 
-![bg right:40% fit](img/extentions/conventionalcommits.gif)
+![bg right:40% fit](img/extensions/conventionalcommits.gif)
 
 ```text
 <type>[optional scope]: <description>
@@ -499,7 +499,7 @@ Lightweight Rest API Client for VS Code
 
 ### Better Comments
 
-![bg left fit](img/extentions/better-comments.png)
+![bg left fit](img/extensions/better-comments.png)
 
 [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments) colour codes your commit messages
 
@@ -516,13 +516,13 @@ Keep [unique lines](https://marketplace.visualstudio.com/items?itemName=bibhasdn
 
 ### Bookmarks
 
-![bg left fit](img/extentions/booksmarks.png)
+![bg left fit](img/extensions/booksmarks.png)
 
 [Bookmark](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks) your code and quickly jump to bookmarks.
 
 ### Markdown Preview
 
-![bg right:30%](img/extentions/mermaid.png)
+![bg right:30%](img/extensions/mermaid.png)
 
 [Markdown Preview](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid) allows you to create [Mermaid JS](https://mermaid.js.org/) documents that can be included in Markdown documents.
 
@@ -551,8 +551,8 @@ Aside: Mermaid JS can generate
 
 ---
 
-![bg right w:400px](img/extentions/mermaid-sequence.png)
-![bg right w:400px](img/extentions/mermaid-flow.png)
+![bg right w:400px](img/extensions/mermaid-sequence.png)
+![bg right w:400px](img/extensions/mermaid-flow.png)
 
 ```mermaid
 sequenceDiagram
@@ -573,13 +573,13 @@ flowchart TD
 
 ### JSON Crack
 
-![bg left:60% fit](img/extentions/jsoncrack.gif)
+![bg left:60% fit](img/extensions/jsoncrack.gif)
 
 [JSON Crack](https://marketplace.visualstudio.com/items?itemName=AykutSarac.jsoncrack-vscode) seamlessly visualize your JSON data instantly into graphs.
 
 ### SemanticDiff
 
-![bg fit right:60%](img/extentions/semanticdiff.gif)
+![bg fit right:60%](img/extensions/semanticdiff.gif)
 
 [SemanticDiff](https://marketplace.visualstudio.com/items?itemName=semanticdiff.semanticdiff) is a programming language aware diffs.
 
@@ -587,19 +587,19 @@ Can show differences when you move code.
 
 ### FootSteps
 
-![bg fit left:60%](img/extentions/footsteps.gif)
+![bg fit left:60%](img/extensions/footsteps.gif)
 
 [FootSteps](https://marketplace.visualstudio.com/items?itemName=Wattenberger.footsteps) Highlight and navigate between your most recently edited chunks of code
 
 ### Pets for your VS Code
 
-![bg fit right:60%](img/extentions/pets.gif)
+![bg fit right:60%](img/extensions/pets.gif)
 
 [Pets](https://marketplace.visualstudio.com/items?itemName=tonybaloney.vscode-pets) gives you a virtual pet to play with while you are coding.
 
 ### Docker
 
-![bg right fit](img/extentions/docker-view-context-menu.gif)
+![bg right fit](img/extensions/docker-view-context-menu.gif)
 
 Makes it easy to create, manage, and debug containerized applications.
 
@@ -607,14 +607,14 @@ Makes it easy to create, manage, and debug containerized applications.
 
 ### Azure Tools
 
-![bg left fit](img/extentions/azure.png)
+![bg left fit](img/extensions/azure.png)
 Get web site hosting, SQL and MongoDB data, Docker Containers, Serverless Functions and more, all on Azure.
 
 [Azure Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-node-azure-pack)
 
 ### AWS Toolkit
 
-![bg right fit](img/extentions/aws.gif)
+![bg right fit](img/extensions/aws.gif)
 
 Including CodeWhisperer, CodeCatalyst, and support for Lambda, S3, CloudWatch Logs, and many other services
 
