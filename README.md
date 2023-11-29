@@ -205,8 +205,8 @@ See the code context with Sticky Scroll - useful for long methods
 |    Upper | HELLO WORLD              |
 |    Lower | hello world              |
 |    Camel | helloWorld               |
-|    Snake | helloWorld ➡️ hello_world |
-|    Kebab | helloWorld ➡️ hello-world |
+|    Snake | helloWorld → hello_world |
+|    Kebab | helloWorld → hello-world |
 
 ### Code Formatting
 
@@ -365,22 +365,11 @@ Launch a development local Server with live reload feature for static & dynamic 
 
 [LiveServer](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
-### GitHub Copilot
-
-Name: GitHub Copilot
-Id: GitHub.copilot
-Description: Your AI pair programmer
-
-![bg right w:800px](img/extentions/copilot.gif)
-
-[GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
-
 ### Indent Rainbow
 
 [Indent Rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
 
 ![](img/extentions/indentrainbow.png)
-
 
 ### Path Intellisense
 
@@ -432,6 +421,12 @@ Improve highlighting of errors, warnings and other language diagnostics.
 📸  Polaroid for your code. Take screenshots of your code
 
 [Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)
+
+### GitHub Copilot
+
+[GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) Your AI pair programmer
+
+![bg right w:800px](img/extentions/copilot.gif)
 
 ### C# Dev Kit
 
@@ -500,7 +495,7 @@ Lightweight Rest API Client for VS Code
 ```
 
 [Conventional Commits](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits)
-[conventionalcommits.org](https://www.conventionalcommits.org)
+[conventionalcommits.org](https://www.conventionalcommits.org) which then dovetails to [semver.org](https://semver.org)
 
 ### Better Comments
 
@@ -578,7 +573,7 @@ flowchart TD
 
 ### JSON Crack
 
-![bg left fit](img/extentions/jsoncrack.gif)
+![bg left:60% fit](img/extentions/jsoncrack.gif)
 
 [JSON Crack](https://marketplace.visualstudio.com/items?itemName=AykutSarac.jsoncrack-vscode) seamlessly visualize your JSON data instantly into graphs.
 
