@@ -69,20 +69,21 @@ Key Features:
 
 ![bg right:40% fit](img/tipsandtricks/create-profile.png)
 
-VS Code has a Default Profile. You can have additional [profiles](https://code.visualstudio.com/docs/editor/profiles).
+VS Code has a Default Profile. Customize Settings, Keyboard Shortcuts, User Snippets, User Tasks or  Extensions.
 
-Customize Settings, Keyboard Shortcuts, User Snippets, User Tasks or  Extensions
+You can have additional [profiles](https://code.visualstudio.com/docs/editor/profiles).
 
 ---
 
-- Have a profile for Frontend, Backend, AWS and Azure or even for a project.
+- Have a profile for Frontend, Backend, AWS and Azure or a Project.
 - Customize the profile for a stack ie (Jira, AWS and Python).
 - You could install the tools and extensions as part of that project.
 
 ## Customisation
 
+- Edit the setings via the UI or the underlying JSON.
 - [Default settings](https://code.visualstudio.com/docs/getstarted/settings#_default-settings) or open `Preferences: Open Default Settings (JSON)`
-- Customize it with User settings - `Ctrl+P` and go to `Open User Settings (JSON)`
+- Customize the User settings `Ctrl+,` (UI) - `Ctrl+P` and go to `Open User Settings (JSON)`
 
 ```json
 {
@@ -176,12 +177,6 @@ Normally your workspace has a single root/project folder but you can have a work
 
 `Ctrl+P` and type `?term` to open a new terminal
 
-### Sticky Scroll
-
-See the code context with Sticky Scroll - useful for long methods
-
-![w:600px](img/tipsandtricks/sticky-scroll.gif)
-
 ### Others
 
 `Ctrl+T` - Go To Symbol
@@ -209,7 +204,7 @@ See the code context with Sticky Scroll - useful for long methods
 
 ### Code Formatting
 
-![w:800px](img/tipsandtricks/code_formatting.gif)
+![w:700px](img/tipsandtricks/code_formatting.gif)
 
 ### Regex Search and Replace
 
@@ -221,13 +216,13 @@ Edit Text Vertically with [multi-cursor](https://code.visualstudio.com/docs/gets
 
 Keep selecting text with `Ctrl+D` and update over multiple locations in a file.
 
-![w:800px](img/tipsandtricks/multicursor.gif)
+![w:600px](img/tipsandtricks/multicursor.gif)
 
 ### Expanding and Shrinking Selection
 
 Shift+Alt+Left and Shift+Alt+Right
 
-Great for finding the start and end of a long `<div>`
+Find the start and end of a long `<div>` in HTML
 
 ![](img/tipsandtricks/expandselection.gif)
 
@@ -238,6 +233,12 @@ Hide Text for easier reading
 ![bg right w:500px](img/tipsandtricks/code_folding.gif)
 
 Fold Level [1|2|3|4], Fold All, Unfold All
+
+### Sticky Scroll
+
+See the code context with Sticky Scroll - useful for long methods
+
+![w:600px](img/tipsandtricks/sticky-scroll.gif)
 
 ### Emmet
 
@@ -259,7 +260,9 @@ Focus on the code with Zen Mode
 
 ### Errors
 
-Jump to the [next error](https://code.visualstudio.com/Docs/editor/editingevolved#_errors-warnings) with `F8`
+Jump to the [next error](https://code.visualstudio.com/Docs/editor/editingevolved#_errors-warnings) with `F8`.
+
+Really useful for going through compiler errors.
 
 ### File Nesting
 
@@ -338,9 +341,9 @@ Install extensions with `Ctrl+Shift+X`. You can add to the workspace `@recommend
 
 ## Marp
 
-This slide deck written in Markdown within VSCode. I used the Marp extension preview it. <https://marp.app/>
+This slide deck written in Markdown within VSCode. I used the Marp extension to preview it.
 
-Marp has a CLI - so this slide has a CICD pipeline 😁
+[Marp](https://marp.app) has a CLI - so this slide has a CICD pipeline 😁
 
 ### Peacock
 
@@ -383,6 +386,22 @@ Launch a development local Server with live reload feature for static & dynamic 
 
 [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) for source code
 
+### Error Lens
+
+Improve highlighting of errors, warnings and other language diagnostics.
+
+[Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
+
+![](img/extensions/errorlens.png)
+
+### Polacode
+
+![bg right fit](img/extensions/polacode.gif)
+
+📸  Polaroid for your code. Take screenshots of your code
+
+[Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)
+
 ### LiveShare
 
 Real-time collaborative development from the comfort of your favourite tools.
@@ -403,23 +422,6 @@ Bringing the power of Jira and Bitbucket to VS Code
 - Get build statuses and more!
 
 [Jira and Bitbucket](https://marketplace.visualstudio.com/items?itemName=Atlassian.atlascode)
-
-
-### Error Lens
-
-Improve highlighting of errors, warnings and other language diagnostics.
-
-[Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
-
-![](img/extensions/errorlens.png)
-
-### Polacode
-
-![bg right fit](img/extensions/polacode.gif)
-
-📸  Polaroid for your code. Take screenshots of your code
-
-[Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)
 
 ### GitHub Copilot
 
@@ -464,7 +466,7 @@ content-type: application/json
 ```
 
 ```sh
-curl https://www.google.com
+curl https://www.example.com
 ```
 
 ---
@@ -474,6 +476,12 @@ curl https://www.google.com
 [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
 
 Lightweight Rest API Client for VS Code
+
+### Better Comments
+
+![bg left fit](img/extensions/better-comments.png)
+
+[Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments) colour codes your commit messages
 
 ### TODO Tree
 
@@ -485,6 +493,8 @@ Lightweight Rest API Client for VS Code
 
 ![bg right:40% fit](img/extensions/conventionalcommits.gif)
 
+[Conventional Commits](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits)
+
 ```text
 <type>[optional scope]: <description>
 
@@ -493,22 +503,33 @@ Lightweight Rest API Client for VS Code
 [optional footer(s)]
 ```
 
-[Conventional Commits](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits)
-[conventionalcommits.org](https://www.conventionalcommits.org) which then dovetails to [semver.org](https://semver.org)
+---
 
-### Better Comments
+Follows [conventionalcommits.org](https://www.conventionalcommits.org) and uses [gitmoji](https://gitmoji.dev) which then dovetails to [semver.org](https://semver.org)
 
-![bg left fit](img/extensions/better-comments.png)
+```
+feat(api): ✨ Add Get User Endpoint
 
-[Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments) colour codes your commit messages
+Allow users to access their profile
+
+ABC-123
+```
 
 ### Unique Lines
 
 Keep [unique lines](https://marketplace.visualstudio.com/items?itemName=bibhasdn.unique-lines) of text and remove duplicates from current selection. Also includes a command to shuffle currently selected lines.
 
+```text
+A    A
+B => B
+B    C
+C
+C
+```
+
 ### Encode Decode
 
-[Encode Decode](https://marketplace.visualstudio.com/items?itemName=mitchdenny.ecdc)
+[Encode Decode](https://marketplace.visualstudio.com/items?itemName=mitchdenny.ecdc) converts text.
 
 - Convert String **to/from** Base64, HTML Entities, JSON Byte Array, JSON String, Unicode, XML Entities
 - Convert String to MD5/SHA1/SHA256/SHA512 (as Base64 or Hex)
@@ -519,11 +540,11 @@ Keep [unique lines](https://marketplace.visualstudio.com/items?itemName=bibhasdn
 
 [Bookmark](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks) your code and quickly jump to bookmarks.
 
-### Markdown Preview
+### Markdown Preview Mermaid Support
 
 ![bg right:30%](img/extensions/mermaid.png)
 
-[Markdown Preview](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid) allows you to create [Mermaid JS](https://mermaid.js.org/) documents that can be included in Markdown documents.
+[Markdown Preview Mermaid Support](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid) allows you to create [Mermaid JS](https://mermaid.js.org/) documents that can be included in Markdown documents.
 
 ```mermaid
 graph TD;
