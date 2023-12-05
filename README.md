@@ -320,6 +320,8 @@ Run tasks like build, test and other custom tasks in [Task Runners](https://code
 
 [Dev Containers](https://code.visualstudio.com/docs/devcontainers/containers) uses a `devcontainer.json` file in your project tells VS Code how to access (or create) a development container with a well-defined tool and runtime stack.
 
+Also supports switching between [multiple containers](https://www.youtube.com/watch?v=bVmczgfeR5Y)
+
 ---
 
 ![](img/tipsandtricks/architecture-containers.png)
@@ -379,7 +381,6 @@ Launch a development local Server with live reload feature for static & dynamic 
 
 [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) autocompletes filenames
 
-
 ### Code Spell Checker
 
 ![bg right w:500px](img/extensions/codespellchecker.gif)
@@ -393,6 +394,13 @@ Improve highlighting of errors, warnings and other language diagnostics.
 [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
 
 ![](img/extensions/errorlens.png)
+
+### Inline Fold
+
+![bg left fit](img/extensions/inlinefold.png)
+
+[Inline fold](https://marketplace.visualstudio.com/items?itemName=moalamri.inline-fold) A custom decorator that "fold" matching content in single line. Helps with Tailwind CSS.
+
 
 ### Polacode
 
@@ -514,6 +522,8 @@ Allow users to access their profile
 
 ABC-123
 ```
+
+![bg right:40% fit](img/extensions/conventionalcommitsexample.jpg)
 
 ### Unique Lines
 
