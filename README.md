@@ -104,7 +104,7 @@ You can have additional [profiles](https://code.visualstudio.com/docs/editor/pro
 
 ![bg right h:300px](img/tipsandtricks/turn-on-sync.png)
 
-[Settings sync](https://code.visualstudio.com/docs/editor/settings-sync) cross multiple instances of VS Code
+[Settings sync](https://code.visualstudio.com/docs/editor/settings-sync) across multiple instances of VS Code
 
 ## Layout
 
@@ -320,7 +320,7 @@ Run tasks like build, test and other custom tasks in [Task Runners](https://code
 
 [Dev Containers](https://code.visualstudio.com/docs/devcontainers/containers) uses a `devcontainer.json` file in your project tells VS Code how to access (or create) a development container with a well-defined tool and runtime stack.
 
-Also supports switching between [multiple containers](https://www.youtube.com/watch?v=bVmczgfeR5Y)
+You can use [prebuild images](https://youtu.be/M21loGvplVM) to dev container setup. Also supports switching between [multiple containers](https://youtu.be/bVmczgfeR5Y)
 
 ---
 
@@ -343,7 +343,7 @@ Install extensions with `Ctrl+Shift+X`. You can add to the workspace `@recommend
 
 ## Marp
 
-This slide deck written in Markdown within VSCode. I used the Marp extension to preview it.
+This slide deck was written in Markdown within VSCode. I used the [Marp for VS Code](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode) extension to preview it.
 
 [Marp](https://marp.app) has a CLI - so this slide has a CICD pipeline 😁
 
@@ -371,7 +371,7 @@ Launch a development local Server with live reload feature for static & dynamic 
 
 ### Indent Rainbow
 
-[Indent Rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
+[Indent Rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow) makes indentation more readable. Highlights when you get indenting wrong.
 
 ![](img/extensions/indentrainbow.png)
 
@@ -626,6 +626,17 @@ Can show differences when you move code.
 ![bg fit right:60%](img/extensions/pets.gif)
 
 [Pets](https://marketplace.visualstudio.com/items?itemName=tonybaloney.vscode-pets) gives you a virtual pet to play with while you are coding.
+
+
+### Database Connections
+
+![bg fit left:60%](img/extensions/mssql.gif)
+
+- [SQL Server](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql)
+- [MySQL](https://marketplace.visualstudio.com/items?itemName=formulahendry.vscode-mysql)
+- [PostgreSQL](https://marketplace.visualstudio.com/items?itemName=ckolkman.vscode-postgres)
+- [MongoDB for VS Code](https://marketplace.visualstudio.com/items?itemName=mongodb.mongodb-vscode)
+- [Redis](https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-redis-client)
 
 ### Docker
 
