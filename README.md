@@ -25,44 +25,65 @@ Tips and Tricks
 
 ⬇️ Download [PowerPoint](https://neave.dev/vscode/vscode.pptx) and [PDF](https://neave.dev/vscode/vscode.pdf)
 
+## What is VS Code?
+
+> Visual Studio Code is a free code editor that is optimized for building and debugging modern web and cloud applications.
+
+You can run it on Windows, Linux, Mac or Online <https://vscode.dev>
+
+---
+
+Key Features:
+
+* It supports a range of languages,
+* Productivity shortcut circuits
+  - Keyboard shortcuts
+  - Tasks
+  - Snippets
+* Customizable with
+  - Themes
+  - Extensions
+* Integrated terminal.
+
 ## Documentation and Updates
 
-<!-- - [Official Documentation](https://code.visualstudio.com/docs)
+- [Official Documentation](https://code.visualstudio.com/docs)
   - [Intro Videos](https://code.visualstudio.com/docs/getstarted/introvideos)
   - [Tips and Tricks](https://code.visualstudio.com/docs/getstarted/tips-and-tricks)
   - [Updates](https://code.visualstudio.com/updates)
-- [YouTube](https://www.youtube.com/@code) -->
+- [VSCode YouTube Channel](https://www.youtube.com/@code)
 
-|                                               Topic | Sub-Topic                                                                        |
-| --------------------------------------------------: | :------------------------------------------------------------------------------- |
-| [Documentation](https://code.visualstudio.com/docs) |                                                                                  |
-|                                                     | [Intro Videos](https://code.visualstudio.com/docs/getstarted/introvideos)        |
-|                                                     | [Tips and Tricks](https://code.visualstudio.com/docs/getstarted/tips-and-tricks) |
-|                                                     | [Updates](https://code.visualstudio.com/updates)                                 |
-|            [YouTube](https://www.youtube.com/@code) |                                                                                  |
 
 ## Inbuilt Features
 <!-- footer: Inbuilt Features -->
 
 ### Help Menu
 
-* [Keyboard Shortcut reference](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
+* [Keyboard shortcut reference](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
 * Walkthroughs
-* Editor Playground
-
-![bg right fit](img/tipsandtricks/editor-playground.jpg)
+* Interactive Editor Playground
+  - ![h:300px](img/tipsandtricks/editor-playground.jpg)
 
 ## Settings
 
-### Synchronized Settings
+### Profiles
 
-https://code.visualstudio.com/docs/editor/settings-sync
+![bg right:40% fit](img/tipsandtricks/create-profile.png)
+
+VS Code has a Default Profile. You can have additional [profiles](https://code.visualstudio.com/docs/editor/profiles).
+
+Customize Settings, Keyboard Shortcuts, User Snippets, User Tasks or  Extensions
+
+---
+
+Have a profile for frontend, backend, AWS and Azure or a project.
+
+You have a project that uses Jira, AWS and Python - you could install the tools and extensions as part of that project.
 
 ## Customisation
 
-[Default settings](https://code.visualstudio.com/docs/getstarted/settings#_default-settings)
-
-Ctrl+P and go to `Open User Settings (JSON)`
+- [Default settings](https://code.visualstudio.com/docs/getstarted/settings#_default-settings) or open `Preferences: Open Default Settings (JSON)`
+- Customize it with User settings - Ctrl+P and go to `Open User Settings (JSON)`
 
 ```json
 {
@@ -79,42 +100,43 @@ Ctrl+P and go to `Open User Settings (JSON)`
 }
 ```
 
-### Profiles
+### Synchronized Settings
 
-VS Code has a Default Profile.
-Use additional [profiles](https://code.visualstudio.com/docs/editor/profiles) for
+![h:300px](/img/tipsandtricks/turn-on-sync.png)
 
-- Settings
-- Keyboard Shortcuts
-- User Snippets
-- User Tasks
-- Extensions
+[Settings sync](https://code.visualstudio.com/docs/editor/settings-sync) cross multiple instances of VS Code
 
-Have a profile for frontend,backend,AWS and Azure
+## Layout
 
-![bg right:40% fit](img/tipsandtricks/create-profile.png)
+![w:800px](img/tipsandtricks/layout.png)
 
-## Display
+---
 
-Toggle Sidebar (Ctrl+B). Move the sidebar to the right
+You can customize the layout. My preference is to move the sidebar to the right. `workbench.sideBar.location: "right"`
 
-`workbench.sideBar.location: "right"`
+So that when you `Toggle Sidebar` (Ctrl+B), it doesn't make the code jump around.
 
-Add a secondary sidebar with Outline view for better navigation
+Add a secondary sidebar with Outline view for better navigation.
 
-### Zen Mode
+### Grouping
 
-![w:800px](img/tipsandtricks/zen_mode.gif)
+Ctrl+\
+
+![w:400px](img/tipsandtricks/split_editor.gif)
+
+Ctrl+1,Ctrl+2
+
+![w:400px](img/tipsandtricks/navigate_editors.gif)
+
+Ctrl+P and `View: Move Editor to Next Group`
 
 ## Navigation
 
-### Navigate between recently opened files and workspaces
-
-<kbd>Ctrl+R</kbd>
+- Navigate between recently opened files and workspaces/projects - Ctrl+R
 
 ### Multi-Root Workspaces
 
-You can work with multiple project folders in Visual Studio Code with [multi-root workspaces](https://code.visualstudio.com/docs/editor/multi-root-workspaces).
+Normally your workspace has a single root/project folder but you can have a workspace with multiple project folders in Visual Studio Code with [multi-root workspaces](https://code.visualstudio.com/docs/editor/multi-root-workspaces).
 
 ---
 
@@ -140,40 +162,47 @@ You can work with multiple project folders in Visual Studio Code with [multi-roo
 }
 ```
 
-
 ### Command Palette
 
-Ctrl+Shift+P ![w:800px](img/tipsandtricks/OpenCommandPalatte.gif)
+![w:600px](img/tipsandtricks/OpenCommandPalatte.gif)
+Ctrl+Shift+P
 
 ### Quick Open File
 
-Ctrl+P ![w:800px](img/tipsandtricks/QuickOpen.gif)
+![w:600px](img/tipsandtricks/QuickOpen.gif)
+Ctrl+P
 
-![w:800px](img/tipsandtricks/quick-open-command-dropdown.png)
+---
 
-Ctrl+B (right side)
+![w:600px](img/tipsandtricks/quick-open-command-dropdown.png)
+
+Ctrl+P and type `?term` to open a new terminal
 
 ### Sticky Scroll
 
-![](img/tipsandtricks/sticky-scroll.gif)
+Remember the context with Sticky Scroll
+
+![w:600px](img/tipsandtricks/sticky-scroll.gif)
 
 ## Editing
 
 ### Text Manipulation
 
 - Sort Lines Ascending/Descending
+- Join Lines
+
+---
+
 - Transform Text
 
-![](img/tipsandtricks/transform-text-commands.png)
-
-| Tranform | Example     |
-| -------: | :---------- |
-|    Title | Hello World |
-|    Upper | HELLO WORLD |
-|    Lower | hello world |
-|    Camel | helloWorld  |
-|    Snake | hello_world |
-|    Kebab | hello-world |
+| Tranform | Example                  |
+| -------: | :----------------------- |
+|    Title | Hello World              |
+|    Upper | HELLO WORLD              |
+|    Lower | hello world              |
+|    Camel | helloWorld               |
+|    Snake | helloWorld ➡️ hello_world |
+|    Kebab | helloWorld ➡️ hello-world |
 
 ### Code Formatting
 
@@ -183,9 +212,11 @@ Ctrl+B (right side)
 
 ![w:800px](img/tipsandtricks/search_and_modify.png)
 
-### Multi Cursor (CTRL+D)
+### Multi Cursor
 
 Edit Text Vertically with [multi-cursor](https://code.visualstudio.com/docs/getstarted/tips-and-tricks#_multi-cursor-selection)
+
+Keep selecting text with Ctrl+D and update over multiple locations in a file.
 
 ![w:800px](img/tipsandtricks/multicursor.gif)
 
@@ -201,17 +232,15 @@ Ever tried to find the start and end of a large `<div></div>` ?
 
 Hide Text for easier reading
 
-![](img/tipsandtricks/code_folding.gif)
+![bg right w:500px](img/tipsandtricks/code_folding.gif)
 
-Fold Level X, Fold All, Unfold All
+Fold Level [1|2|3|4], Fold All, Unfold All
 
 ### Emmet
 
-Generate HTML from shorthand
+Generate HTML and CSS from shorthand. Works with multi-cursors
 
-![w:800px](img/tipsandtricks/emmet.gif)
-
-Works with multi-cursors
+![bg left w:600px](img/tipsandtricks/emmet.gif)
 
 ### Markdown preview
 
@@ -219,11 +248,15 @@ Works with multi-cursors
 
 ## Productivity / Focus
 
-### Next Problem in Files
+### Zen Mode
 
-<kbd>F8</kbd>
+Focus on the code with Zen Mode
 
-https://code.visualstudio.com/Docs/editor/editingevolved#_errors-warnings
+![w:800px](img/tipsandtricks/zen_mode.gif)
+
+### Errors
+
+Jump to the [next error](https://code.visualstudio.com/Docs/editor/editingevolved#_errors-warnings) with `F8`
 
 ### File Nesting
 
@@ -239,9 +272,9 @@ https://code.visualstudio.com/Docs/editor/editingevolved#_errors-warnings
 
 ### Pinned Tabs
 
-![w:800px](img/tipsandtricks/pinned-editor-tab.png)
+[Pinned Tabs](https://code.visualstudio.com/docs/editor/custom-layout#_pinned-tabs) allow you to keep a file open
 
-https://code.visualstudio.com/docs/editor/custom-layout#_pinned-tabs
+![w:800px](img/tipsandtricks/pinned-editor-tab.png)
 
 ### Vertical Rulers
 
@@ -249,42 +282,34 @@ Make sure your code isn't getting too long and hard to read.
 
 ![w:800px](img/tipsandtricks/editor-rulers.png)
 
-
-### Grouping
-
-Ctrl+\
-
-![w:400px](img/tipsandtricks/split_editor.gif)
-
-Ctrl+1,Ctrl+2
-
-![w:400px](img/tipsandtricks/navigate_editors.gif)
-
-Ctrl+P and `View: Move Editor to Next Group`
-
-
 ### LogPoints
 
 Non-breaking [log points](https://code.visualstudio.com/blogs/2018/07/12/introducing-logpoints-and-auto-attach#_introducing-logpoints) to show logging
 
 ![w:800px](img/tipsandtricks/logpoints.gif)
 
-
 ### Screencast Mode
 
 ![w:600px](img/tipsandtricks/screencast.gif)
-
-### Terminal
-
-Run commands from the terminal without leaving VS Code.
 
 ### Task Runners
 
 Run tasks like build, test and other custom tasks in [Task Runners](https://code.visualstudio.com/docs/getstarted/tips-and-tricks#_task-runner).
 
-![w:400px](img/tipsandtricks/task_runner.gif)
+![bg right w:500px](img/tipsandtricks/task_runner.gif)
 
-### Developer Containers
+### Remote Development
+
+|                                                                                                                       Remote | Description                                                 |
+| ---------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------- |
+|                                                     [Remote via SSH](https://code.visualstudio.com/docs/remote/ssh-tutorial) | Connect to remote machines with Visual Studio Code via SSH. |
+|                                                        [Work in WSL](https://code.visualstudio.com/docs/remote/wsl-tutorial) | Work in Windows Subsystem for Linux.                        |
+|                                           [Develop in Containers](https://code.visualstudio.com/docs/devcontainers/tutorial) | Work in a Docker Container.                                 |
+| [GitHub Codespaces](https://docs.github.com/github/developing-online-with-codespaces/using-codespaces-in-visual-studio-code) | Work in codespace with Visual Studio Code.                  |
+
+---
+
+#### Dev Containers
 
 A devcontainer.json file in your project tells VS Code how to access (or create) a development container with a well-defined tool and runtime stack. https://code.visualstudio.com/docs/devcontainers/containers
 
@@ -295,245 +320,281 @@ A devcontainer.json file in your project tells VS Code how to access (or create)
 ## Extensions
 <!-- footer: Extensions -->
 
-ctrl+shift+x
+Install extenstions with `ctrl+shift+x`. You can add to the workspace `@recommended` extensions for a project.
 
-@recommended
-
-Most Popular https://marketplace.visualstudio.com/search?target=VSCode&category=All%20categories&sortBy=Installs
-
-`@popular`
-
-
-## Marp
-
-This slide deck written in Markdown within VSCode. I used the Marp extension to export to PowerPoint. <https://marp.app/>
-
-Side note, Marp has a CLI - so this slide has a CICD pipeline 😁
-
-
+[Most Popular](https://marketplace.visualstudio.com/search?target=VSCode&category=All%20categories&sortBy=Installs) extensions can be found with `@popular`
 
 ### Extension Packs
 
-![bg content](img/extentions/extensionpacks.jpg)
+![bg content opacity:.2](img/extentions/extensionpacks.jpg)
 
 [Extension Packs](https://marketplace.visualstudio.com/search?target=VSCode&category=Extension%20Packs&sortBy=Installs)
 
+## Marp
+
+This slide deck written in Markdown within VSCode. I used the Marp extension preview it. <https://marp.app/>
+
+Marp has a CLI - so this slide has a CICD pipeline 😁
+
+### Peacock
+
+![bg right:50% w:500px](img/tipsandtricks/peacock.png)
+
+Working on multiple projects?
+Colour code them
+
+[Link](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock)
+
 ### C# Dev Kit
+
+Official C# extension from Microsoft
+
+- Project System / Solution Explorer
+- Code Editing (Uses the C# extension)
+- Package Management
+- Debugging
+- Testing
 
 [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit)
 
-Name: C# Dev Kit
-Id: ms-dotnettools.csdevkit
-Description: Official C# extension from Microsoft
-Version: 1.0.14
-Publisher: Microsoft
-VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit
-
 ### IntelliCode
 
-Name: IntelliCode
-Id: VisualStudioExptTeam.vscodeintellicode
-Description: AI-assisted development
-Version: 1.2.30
-Publisher: Microsoft
-VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode
+AI-assisted development features for Python, TypeScript/JavaScript and Java developers
+
+[IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
+
+![bg right w:500px](img/extentions/python-intellicode.gif)
 
 ### LiveServer
 
-![bg fit right:60%](img/extentions/vscode-live-server-animated-demo.gif)
+![bg left:50% w:600px](img/extentions/vscode-live-server-animated-demo.gif)
+
+Launch a development local Server with live reload feature for static & dynamic pages
 
 [LiveServer](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
-Name: Live Server
-Id: ritwickdey.LiveServer
-Description: Launch a development local Server with live reload feature for static & dynamic pages
-Version: 5.7.9
-Publisher: Ritwick Dey
-VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
-
-### CoPilot
+### GitHub Copilot
 
 Name: GitHub Copilot
 Id: GitHub.copilot
 Description: Your AI pair programmer
-Version: 1.138.0
-Publisher: GitHub
-VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=GitHub.copilot
 
-### Atlassian
+![bg right w:800px](img/extentions/copilot.gif)
 
-Name: Jira and Bitbucket (Atlassian Labs)
-Id: atlassian.atlascode
-Description: Bringing the power of Jira and Bitbucket to VS Code - With Atlassian for VS Code you can create and view issues, start work on issues, create pull requests, do code reviews, start builds, get build statuses and more!
-Version: 3.0.8
-Publisher: Atlassian
-VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=Atlassian.atlascode
+[GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
 
-### Azure
+### LiveShare
 
-Name: Azure Tools
-Id: ms-vscode.vscode-node-azure-pack
-Description: Get web site hosting, SQL and MongoDB data, Docker Containers, Serverless Functions and more, all on Azure, all from VS Code, in this one extension from Microsoft.
-Version: 1.2.0
-Publisher: Microsoft
-VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-node-azure-pack
+Real-time collaborative development from the comfort of your favourite tools.
 
-### AWS
+![bg left w:400px](img/extentions/liveshare.png)
 
-Name: AWS Toolkit
-Id: amazonwebservices.aws-toolkit-vscode
-Description: Including CodeWhisperer, CodeCatalyst, and support for Lambda, S3, CloudWatch Logs, and many other services
-Version: 1.100.0
-Publisher: Amazon Web Services
-VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.aws-toolkit-vscode
+[LiveShare](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare) / [Docs](https://code.visualstudio.com/learn/collaboration/live-share)
+
+### Jira and Bitbucket
+
+Bringing the power of Jira and Bitbucket to VS Code
+
+- You can create and view issues
+- Start work on issues
+- Create pull requests
+- Do code reviews
+- Start builds
+- Get build statuses and more!
+
+[Jira and Bitbucket](https://marketplace.visualstudio.com/items?itemName=Atlassian.atlascode)
+
+### Azure Tools
+
+![bg left fit](img/extentions/azure.png)
+Get web site hosting, SQL and MongoDB data, Docker Containers, Serverless Functions and more, all on Azure.
+
+[Azure Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-node-azure-pack)
+
+### AWS Toolkit
+
+![bg right fit](img/extentions/aws.gif)
+
+Including CodeWhisperer, CodeCatalyst, and support for Lambda, S3, CloudWatch Logs, and many other services
+
+[AWS Toolkit](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.aws-toolkit-vscode)
 
 ### Docker
 
-Name: Docker
-Id: ms-azuretools.vscode-docker
-Description: Makes it easy to create, manage, and debug containerized applications.
-Version: 1.28.0
-Publisher: Microsoft
-VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker
+![bg right fit](img/extentions/docker-view-context-menu.gif)
 
+Makes it easy to create, manage, and debug containerized applications.
+
+[Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
 
 ### Error Lens
 
-Name: Error Lens
-Id: usernamehw.errorlens
-Description: Improve highlighting of errors, warnings and other language diagnostics.
-Version: 3.15.0
-Publisher: Alexander
-VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens
+Improve highlighting of errors, warnings and other language diagnostics.
+
+[Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
+
+![](img/extentions/errorlens.png)
 
 ### Polacode
 
-Name: Polacode
-Id: pnp.polacode
-Description: 📸  Polaroid for your code
-Version: 0.3.4
-Publisher: P & P
-VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=pnp.polacode
+![bg right fit](img/extentions/polacode.gif)
+
+📸  Polaroid for your code. Take screenshots of your code
+
+[Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)
 
 ### Polygot Notebooks
 
-Name: Polyglot Notebooks
-Id: ms-dotnettools.dotnet-interactive-vscode
-Description: Polyglot Notebooks for VS Code. Use multiple languages in one notebook with full language server support for each language and share variables between them.
-Version: 1.0.4562010
-Publisher: Microsoft
-VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-interactive-vscode
+Polyglot Notebooks for VS Code. Use multiple languages in one notebook with full language server support for each language and share
 
-### RapidAPI Client
+[Polygot Notebooks](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-interactive-vscode)
 
-Name: RapidAPI Client
-Id: RapidAPI.vscode-rapidapi-client
-Description: RapidAPI Client is a full-featured HTTP client that lets you test and describes the APIs you build or consume. Designed to work with your VS Code themes, RapidAPI Client makes composing requests, inspecting responses, generating code, and types for application development simple and intuitive.
-Version: 1.10.2
-Publisher: RapidAPI
-VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=RapidAPI.vscode-rapidapi-client
+### API Clients
 
-### Rest Client
+[REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
 
-Name: REST Client
-Id: humao.rest-client
-Description: REST Client for Visual Studio Code
-Version: 0.25.1
-Publisher: Huachao Mao
-VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=humao.rest-client
+```http
+GET https://example.com/topics/1 HTTP/1.1
 
+POST https://example.com/comments HTTP/1.1
+content-type: application/json
 
-### Todo Tree
+{
+    "name": "sample",
+    "time": "Wed, 21 Oct 2015 18:27:50 GMT"
+}
+```
 
-Name: Todo Tree
-Id: Gruntfuggly.todo-tree
-Description: Show TODO, FIXME, etc. comment tags in a tree view
-Version: 0.0.226
-Publisher: Gruntfuggly
-VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree
+```sh
+curl https://www.google.com
+```
+
+---
+
+![bg right fit](img/extentions/thunder-client-v2.png)
+
+[Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
+
+Lightweight Rest API Client for VS Code
+
+### TODO Tree
+
+[TODO Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
+
+![bg left fit](img/extentions/todotree.png)
+
+### Conventional Commits
+
+![bg right:40% fit](img/extentions/conventionalcommits.gif)
+
+```text
+<type>[optional scope]: <description>
+
+[optional body]
+
+[optional footer(s)]
+```
+
+[Conventional Commits](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits)
+[conventionalcommits.org](https://www.conventionalcommits.org)
+
+### Better Comments
+
+![bg left fit](img/extentions/better-comments.png)
+
+[Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments) colour codes your commit messages
 
 ### Unique Lines
 
-Name: Unique Lines
-Id: bibhasdn.unique-lines
-Description: Keep unique lines of text and remove duplicates from current selection. Also includes a command to shuffle currently selected lines.
-Version: 1.0.0
-Publisher: bibhasdn
-VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=bibhasdn.unique-lines
+[Unique Lines](https://marketplace.visualstudio.com/items?itemName=bibhasdn.unique-lines)
+Keep unique lines of text and remove duplicates from current selection. Also includes a command to shuffle currently selected lines.
 
+### Encode Decode
 
+[Encode Decode](https://marketplace.visualstudio.com/items?itemName=mitchdenny.ecdc)
 
-### Decode
+- Convert String to/from Base64, HTML Entities, JSON Byte Array, JSON String, Unicode, XML Entities
+- Convert String to MD5/SHA1/SHA256/SHA512 (as Base64 or Hex)
 
-Name: Encode Decode
-Id: mitchdenny.ecdc
-Description: An extension for Visual Studio Code that allows you to quickly convert text selections.
-Version: 1.8.0
-Publisher: Mitch Denny
-VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=mitchdenny.ecdc
+### Bookmarks
 
-### Bookmark
+![bg right fit](img/extentions/booksmarks.png)
 
-Name: Bookmarks
-Id: alefragnani.Bookmarks
-Description: Mark lines and jump to them
-Version: 13.4.2
-Publisher: Alessandro Fragnani
-VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks
+[Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks) your code and quickly jump to it.
 
-### Mermaid JS
+### Markdown Preview
 
-Name: Markdown Preview Mermaid Support
-Id: bierner.markdown-mermaid
-Description: Adds Mermaid diagram and flowchart support to VS Code's builtin markdown preview
-Version: 1.20.0
-Publisher: Matt Bierner
-VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid
+![bg right:30%](img/extentions/mermaid.png)
+
+[Markdown Preview](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid) allows you to create [Mermaid JS](https://mermaid.js.org/) documents that can be included in Markdown documents (GitHub supports it).
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
+---
+
+Mermaid JS can generate
+
+- Generate Flowchart
+- Sequence Diagram
+- Class Diagram
+- State Diagram
+- Entity Relationship Diagram
+- User Journey
+- Gantt
+- Pie Chart
+- Quadrant Chart
+- Requirement Diagram
+
+---
+
+![bg right w:400px](img/extentions/mermaid-sequence.png)
+![bg right w:400px](img/extentions/mermaid-flow.png)
+
+```mermaid
+sequenceDiagram
+    Alice->>+John: Hello John, how are you?
+    Alice->>+John: John, can you hear me?
+    John-->>-Alice: Hi Alice, I can hear you!
+    John-->>-Alice: I feel great!
+```
+
+```mermaid
+flowchart TD
+    A[Christmas] -->|Get money| B(Go shopping)
+    B --> C{Let me think}
+    C -->|One| D[Laptop]
+    C -->|Two| E[iPhone]
+    C -->|Three| F[fa:fa-car Car]
+```
 
 ### JSON Crack
 
-Name: JSON Crack
-Id: AykutSarac.jsoncrack-vscode
-Description: Seamlessly visualize your JSON data instantly into graphs.
-Version: 2.0.2
-Publisher: Aykut Saraç
-VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=AykutSarac.jsoncrack-vscode
+![bg left fit](img/extentions/jsoncrack.gif)
+
+[JSON Crack](https://marketplace.visualstudio.com/items?itemName=AykutSarac.jsoncrack-vscode) seamlessly visualize your JSON data instantly into graphs.
 
 ### SemanticDiff
 
 ![bg fit right:60%](img/extentions/semanticdiff.gif)
 
-Name: SemanticDiff
-Id: semanticdiff.semanticdiff
-Description: Programming language aware diffs for Visual Studio Code.
-Version: 0.8.7
-Publisher: SemanticDiff
-VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=semanticdiff.semanticdiff
+Programming language aware diffs for Visual Studio Code.
 
 [Semantic Diff](https://marketplace.visualstudio.com/items?itemName=semanticdiff.semanticdiff)
 
 ### FootSteps
 
-![bg fit right:60%](img/extentions/footsteps.gif)
+![bg fit left:60%](img/extentions/footsteps.gif)
 
-Name: footsteps
-Id: Wattenberger.footsteps
-Description: Highlight and navigate between your most recently edited chunks of code
-Version: 0.5.0
-Publisher: Wattenberger
-VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=Wattenberger.footsteps
+[FootSteps](https://marketplace.visualstudio.com/items?itemName=Wattenberger.footsteps) Highlight and navigate between your most recently edited chunks of code
 
-[FootSteps](https://marketplace.visualstudio.com/items?itemName=Wattenberger.footsteps)
-
-### VS Code Pets
+### Pets for your VS Code
 
 ![bg fit right:60%](img/extentions/pets.gif)
 
-Name: vscode-pets
-Id: tonybaloney.vscode-pets
-Description: Pets for your VS Code
-Version: 1.25.1
-Publisher: Anthony Shaw
-VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=tonybaloney.vscode-pets
-
-[Pets](https://marketplace.visualstudio.com/items?itemName=tonybaloney.vscode-pets)
+[Pets](https://marketplace.visualstudio.com/items?itemName=tonybaloney.vscode-pets) gives you a virtual pet to play with while you are coding.
