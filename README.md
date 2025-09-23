@@ -1,9 +1,9 @@
-<!--
+---
 marp: true
 theme: default
 headingDivider: 2
 paginate: true
--->
+---
 
 <!--
 _class:
@@ -23,6 +23,7 @@ You can view this presentation at 🔗[neave.dev/vscode-slidedeck](https://neave
 
 ## Inbuilt Features
 
+* Command Palette CTRL+SHIFT+P
 * Demo Mode
 * Next Problem in Files <kbd>F8</kbd>
 * Profiles
