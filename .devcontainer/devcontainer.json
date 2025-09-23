@@ -3,7 +3,7 @@
 {
 	"name": "Marp Presentation",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "marpteam/marp-cli:v3.3.1",
+	"image": "marpteam/marp-cli:latest",
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},

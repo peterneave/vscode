@@ -69,7 +69,7 @@ Key Features:
 
 ![bg right:40% fit](img/tipsandtricks/create-profile.png)
 
-VS Code has a Default Profile. Customize Settings, Keyboard Shortcuts, User Snippets, User Tasks or  Extensions.
+VS Code has a Default Profile. Customize Settings, Keyboard Shortcuts, User Snippets, User Tasks or Extensions.
 
 You can have additional [profiles](https://code.visualstudio.com/docs/editor/profiles).
 
@@ -401,7 +401,6 @@ Improve highlighting of errors, warnings and other language diagnostics.
 
 [Inline fold](https://marketplace.visualstudio.com/items?itemName=moalamri.inline-fold) A custom decorator that "fold" matching content in single line. Helps with Tailwind CSS.
 
-
 ### Polacode
 
 ![bg right fit](img/extensions/polacode.gif)
@@ -436,6 +435,10 @@ Bringing the power of Jira and Bitbucket to VS Code
 [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) Your AI pair programmer
 
 ![bg right w:800px](img/extensions/copilot.gif)
+
+### RooCode
+
+[RooCode](https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.roo-cline) is whole dev team of AI agents in your editor. Supports multiple LLM providers and you can choose the models easily.
 
 ### C# Dev Kit
 
@@ -627,6 +630,11 @@ Can show differences when you move code.
 
 [Pets](https://marketplace.visualstudio.com/items?itemName=tonybaloney.vscode-pets) gives you a virtual pet to play with while you are coding.
 
+### Explorer Exclude
+
+Hide and show files with [Explorer Exclude](https://marketplace.visualstudio.com/items?itemName=PeterSchmalfeldt.explorer-exclude). Persists to your `.vscode/settings.json` file under `files.exclude`.
+
+![bg fit left:60%](img/extensions/explorer_exclude.gif)
 
 ### Database Connections
 
