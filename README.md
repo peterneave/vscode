@@ -21,7 +21,7 @@ Presentations to Webpages: Instantly!
 
 This presentation is open source and available on [Github](https://github.com/peterneave/vscode-slidedeck).
 
-You can view this presentation at 🔗[neave.dev/vscode-slidedeck](https://neave.dev/vscode-slidedeck)
+You can view this presentation at 🔗[neave.dev/vscode-slidedeck](https://neave.dev/vscode-slidedeck), [PowerPoint](https://neave.dev/vscode-slidedeck/README.pptx) and [PDF](https://neave.dev/vscode-slidedeck/README.pptx)
 
 ## Inbuilt Features
 
