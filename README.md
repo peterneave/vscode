@@ -76,9 +76,9 @@ Customize Settings, Keyboard Shortcuts, User Snippets, User Tasks or  Extensions
 
 ---
 
-Have a profile for frontend, backend, AWS and Azure or a project.
-
-You have a project that uses Jira, AWS and Python - you could install the tools and extensions as part of that project.
+- Have a profile for Frontend, Backend, AWS and Azure or even for a project.
+- Customize the profile for a stack ie (Jira, AWS and Python).
+- You could install the tools and extensions as part of that project.
 
 ## Customisation
 
@@ -102,7 +102,7 @@ You have a project that uses Jira, AWS and Python - you could install the tools 
 
 ### Synchronized Settings
 
-![h:300px](/img/tipsandtricks/turn-on-sync.png)
+![bg right h:300px](img/tipsandtricks/turn-on-sync.png)
 
 [Settings sync](https://code.visualstudio.com/docs/editor/settings-sync) cross multiple instances of VS Code
 
@@ -122,21 +122,23 @@ Add a secondary sidebar with Outline view for better navigation.
 
 Ctrl+\
 
-![w:400px](img/tipsandtricks/split_editor.gif)
+![bg right](img/tipsandtricks/split_editor.gif)
 
-Ctrl+1,Ctrl+2
+---
 
-![w:400px](img/tipsandtricks/navigate_editors.gif)
+Switch to next group with Ctrl+[1,2,3...]
 
-Ctrl+P and `View: Move Editor to Next Group`
+![w:1000px](img/tipsandtricks/navigate_editors.gif)
+
+Alternatively: Ctrl+P and `View: Move Editor to Next Group`
 
 ## Navigation
 
-- Navigate between recently opened files and workspaces/projects - Ctrl+R
+`Ctrl+R` Displays a Quick Pick dropdown with the list from File > Open Recent with recently opened folders and workspaces followed by files.
 
 ### Multi-Root Workspaces
 
-Normally your workspace has a single root/project folder but you can have a workspace with multiple project folders in Visual Studio Code with [multi-root workspaces](https://code.visualstudio.com/docs/editor/multi-root-workspaces).
+Normally your workspace has a single root/project folder but you can have a workspace with multiple project folders in Visual Studio Code with [multi-root workspaces](https://code.visualstudio.com/docs/editor/multi-root-workspaces). Uses a `.code-workspace` file
 
 ---
 
@@ -180,9 +182,15 @@ Ctrl+P and type `?term` to open a new terminal
 
 ### Sticky Scroll
 
-Remember the context with Sticky Scroll
+See the code context with Sticky Scroll - useful for long methods
 
 ![w:600px](img/tipsandtricks/sticky-scroll.gif)
+
+### Others
+
+`Ctrl+T` - Go To Symbol
+`Ctrl+G` - Go to Line
+`Alt+ ← / →` - Jump forward and back
 
 ## Editing
 
@@ -190,10 +198,9 @@ Remember the context with Sticky Scroll
 
 - Sort Lines Ascending/Descending
 - Join Lines
+- Transform Text
 
 ---
-
-- Transform Text
 
 | Tranform | Example                  |
 | -------: | :----------------------- |
@@ -224,7 +231,7 @@ Keep selecting text with Ctrl+D and update over multiple locations in a file.
 
 Shift+Alt+Left and Shift+Alt+Right
 
-Ever tried to find the start and end of a large `<div></div>` ?
+Great for finding the start and end of a long `<div>`
 
 ![](img/tipsandtricks/expandselection.gif)
 
@@ -262,13 +269,14 @@ Jump to the [next error](https://code.visualstudio.com/Docs/editor/editingevolve
 
 [Nest](https://code.visualstudio.com/updates/v1_67#_explorer-file-nesting) related files under a parent file in the explorer.
 
+![](img/tipsandtricks/file-nesting.jpg)
+
 ```json
 "explorer.fileNesting.patterns": {
     "*.component.ts": "$(capture).component.html, $(capture).component.spec.ts, $(capture).component.scss",
+    "README*": "AUTHORS,CHANGELOG*,CODE_OF_CONDUCT*,CONTRIBUTING*,LICENSE*"
   }
 ```
-
-![](img/tipsandtricks/file-nesting.jpg)
 
 ### Pinned Tabs
 
@@ -311,7 +319,7 @@ Run tasks like build, test and other custom tasks in [Task Runners](https://code
 
 #### Dev Containers
 
-A devcontainer.json file in your project tells VS Code how to access (or create) a development container with a well-defined tool and runtime stack. https://code.visualstudio.com/docs/devcontainers/containers
+[Dev Containers](https://code.visualstudio.com/docs/devcontainers/containers) uses a `devcontainer.json` file in your project tells VS Code how to access (or create) a development container with a well-defined tool and runtime stack.
 
 ---
 
@@ -320,7 +328,9 @@ A devcontainer.json file in your project tells VS Code how to access (or create)
 ## Extensions
 <!-- footer: Extensions -->
 
-Install extenstions with `ctrl+shift+x`. You can add to the workspace `@recommended` extensions for a project.
+### Installation
+
+Install extensions with `ctrl+shift+x`. You can add to the workspace `@recommended` extensions for a project.
 
 [Most Popular](https://marketplace.visualstudio.com/search?target=VSCode&category=All%20categories&sortBy=Installs) extensions can be found with `@popular`
 
@@ -340,22 +350,7 @@ Marp has a CLI - so this slide has a CICD pipeline 😁
 
 ![bg right:50% w:500px](img/tipsandtricks/peacock.png)
 
-Working on multiple projects?
-Colour code them
-
-[Link](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock)
-
-### C# Dev Kit
-
-Official C# extension from Microsoft
-
-- Project System / Solution Explorer
-- Code Editing (Uses the C# extension)
-- Package Management
-- Debugging
-- Testing
-
-[C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit)
+[Peacock](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock) allows you to colour code VS Code.
 
 ### IntelliCode
 
@@ -404,28 +399,6 @@ Bringing the power of Jira and Bitbucket to VS Code
 
 [Jira and Bitbucket](https://marketplace.visualstudio.com/items?itemName=Atlassian.atlascode)
 
-### Azure Tools
-
-![bg left fit](img/extentions/azure.png)
-Get web site hosting, SQL and MongoDB data, Docker Containers, Serverless Functions and more, all on Azure.
-
-[Azure Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-node-azure-pack)
-
-### AWS Toolkit
-
-![bg right fit](img/extentions/aws.gif)
-
-Including CodeWhisperer, CodeCatalyst, and support for Lambda, S3, CloudWatch Logs, and many other services
-
-[AWS Toolkit](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.aws-toolkit-vscode)
-
-### Docker
-
-![bg right fit](img/extentions/docker-view-context-menu.gif)
-
-Makes it easy to create, manage, and debug containerized applications.
-
-[Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
 
 ### Error Lens
 
@@ -443,11 +416,25 @@ Improve highlighting of errors, warnings and other language diagnostics.
 
 [Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)
 
+### C# Dev Kit
+
+Official C# extension from Microsoft
+
+- Project System / Solution Explorer
+- Code Editing (Uses the C# extension)
+- Package Management
+- Debugging
+- Testing
+
+[C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit)
+
 ### Polygot Notebooks
 
-Polyglot Notebooks for VS Code. Use multiple languages in one notebook with full language server support for each language and share
+![bg left](img/extentions/polygot.png)
 
-[Polygot Notebooks](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-interactive-vscode)
+[Polygot Notebooks](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-interactive-vscode) allows
+
+C#, F#, PowerShell, JavaScript, SQL, KQL, Python, R, HTML, HTTP, Mermaid.
 
 ### API Clients
 
@@ -479,7 +466,7 @@ Lightweight Rest API Client for VS Code
 
 ### TODO Tree
 
-[TODO Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
+[TODO Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree) quickly find all your todo items.
 
 ![bg left fit](img/extentions/todotree.png)
 
@@ -506,21 +493,20 @@ Lightweight Rest API Client for VS Code
 
 ### Unique Lines
 
-[Unique Lines](https://marketplace.visualstudio.com/items?itemName=bibhasdn.unique-lines)
-Keep unique lines of text and remove duplicates from current selection. Also includes a command to shuffle currently selected lines.
+Keep [unique lines](https://marketplace.visualstudio.com/items?itemName=bibhasdn.unique-lines) of text and remove duplicates from current selection. Also includes a command to shuffle currently selected lines.
 
 ### Encode Decode
 
 [Encode Decode](https://marketplace.visualstudio.com/items?itemName=mitchdenny.ecdc)
 
-- Convert String to/from Base64, HTML Entities, JSON Byte Array, JSON String, Unicode, XML Entities
+- Convert String **to/from** Base64, HTML Entities, JSON Byte Array, JSON String, Unicode, XML Entities
 - Convert String to MD5/SHA1/SHA256/SHA512 (as Base64 or Hex)
 
 ### Bookmarks
 
-![bg right fit](img/extentions/booksmarks.png)
+![bg left fit](img/extentions/booksmarks.png)
 
-[Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks) your code and quickly jump to it.
+[Bookmark](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks) your code and quickly jump to bookmarks.
 
 ### Markdown Preview
 
@@ -583,9 +569,9 @@ flowchart TD
 
 ![bg fit right:60%](img/extentions/semanticdiff.gif)
 
-Programming language aware diffs for Visual Studio Code.
+[SemanticDiff](https://marketplace.visualstudio.com/items?itemName=semanticdiff.semanticdiff) is a programming language aware diffs.
 
-[Semantic Diff](https://marketplace.visualstudio.com/items?itemName=semanticdiff.semanticdiff)
+Can show differences when you move code.
 
 ### FootSteps
 
@@ -598,3 +584,26 @@ Programming language aware diffs for Visual Studio Code.
 ![bg fit right:60%](img/extentions/pets.gif)
 
 [Pets](https://marketplace.visualstudio.com/items?itemName=tonybaloney.vscode-pets) gives you a virtual pet to play with while you are coding.
+
+### Azure Tools
+
+![bg left fit](img/extentions/azure.png)
+Get web site hosting, SQL and MongoDB data, Docker Containers, Serverless Functions and more, all on Azure.
+
+[Azure Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-node-azure-pack)
+
+### AWS Toolkit
+
+![bg right fit](img/extentions/aws.gif)
+
+Including CodeWhisperer, CodeCatalyst, and support for Lambda, S3, CloudWatch Logs, and many other services
+
+[AWS Toolkit](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.aws-toolkit-vscode)
+
+### Docker
+
+![bg right fit](img/extentions/docker-view-context-menu.gif)
+
+Makes it easy to create, manage, and debug containerized applications.
+
+[Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
