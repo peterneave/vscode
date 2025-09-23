@@ -1,9 +1,8 @@
----
-marp: true
+<!--
 theme: uncover
 headingDivider: 3
 paginate: true
----
+-->
 
 <!--
 _class:
