@@ -131,7 +131,8 @@ Alternatively: `Ctrl+P` and `View: Move Editor to Next Group`
 
 ## Navigation
 
-`Ctrl+R` Displays a Quick Pick dropdown with the list from `File > Open Recent` with recently opened folders and workspaces followed by files.
+- Between projects - `Ctrl+R` Displays a Quick Pick dropdown with the list from `File > Open Recent` with recently opened folders and workspaces followed by files.
+- In & around files - `Ctrl+Shift+.` to select the breadcrumb and jump.
 
 ### Multi-Root Workspaces
 
@@ -634,7 +635,7 @@ Can show differences when you move code.
 
 Hide and show files with [Explorer Exclude](https://marketplace.visualstudio.com/items?itemName=PeterSchmalfeldt.explorer-exclude). Persists to your `.vscode/settings.json` file under `files.exclude`.
 
-![bg fit left:60%](img/extensions/explorer_exclude.gif)
+![bg fit left:30%](img/extensions/explorer_exclude.gif)
 
 ### Database Connections
 
