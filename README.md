@@ -1,8 +1,9 @@
-<!--
+---
 theme: uncover
 headingDivider: 3
 paginate: true
--->
+marp: true
+---
 
 <!--
 _class:
@@ -250,6 +251,24 @@ Generate HTML and CSS from shorthand. Works with multi-cursors
 ### Markdown preview
 
 ![w:800px](img/tipsandtricks/md-dynamic-preview.gif)
+
+### JSON Schema
+
+Maps the JSON to a schema and provides tooltips and validation. Can be set in the [`.vscode/settings.json`](https://code.visualstudio.com/docs/languages/json#_mapping-to-a-schema-in-the-workspace)
+
+![left w:600px](img/tipsandtricks/json-schema.png)
+
+```json
+/* JSON schemas in settings.json */
+{
+  "json.schemas": [
+    {
+    "fileMatch": [ "**/manifest.json" ],
+    "url": "https://example.com/schemas/manifest.json"
+    }
+  ]
+}
+```
 
 ## Productivity / Focus
 
