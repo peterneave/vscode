@@ -393,7 +393,7 @@ Launch a development local Server with live reload feature for static & dynamic 
 
 [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph) creates a view of your repository, and easily perform Git actions from the graph. 
 
-![](https://github.com/mhutchie/vscode-git-graph/raw/master/resources/demo.gif)
+![bg right w:500px](https://github.com/mhutchie/vscode-git-graph/raw/master/resources/demo.gif)
 
 ### Indent Rainbow
 
